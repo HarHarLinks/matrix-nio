@@ -1662,7 +1662,7 @@ class Api:
 
         Args:
             access_token (str): The access token to be used with the request.
-            user_id (str): User id to set display name for.
+            user_id (str): User id to set avatar for.
             avatar_url (str): matrix content URI of the avatar to set.
         """
         query_parameters = {"access_token": access_token}
